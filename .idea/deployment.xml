@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="VaadinProject-ic3" uploadOnCheckin="d27d474a-eecb-4c78-8364-418888e054db">
+  <component name="PublishConfigData" serverName="VaadinProject-ic3">
     <serverData>
       <paths name="VaadinProject-ic3">
         <serverdata>
@@ -10,6 +10,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="VaadinProject-ic3" />
   </component>
 </project>
