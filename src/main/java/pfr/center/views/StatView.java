@@ -7,16 +7,10 @@ import com.vaadin.ui.Grid;
 import com.vaadin.ui.VerticalLayout;
 import pfr.center.models.Person;
 
-public class OstatView extends VerticalLayout implements View {
-    public OstatView() {
-        Grid<Person> grid = new Grid<>();
-        grid.addColumn("Фамилия");
-        grid.addColumn("Имя");
-        grid.addColumn("Отчество");
-        grid.addColumn("Должность");
-
+public class StatView extends VerticalLayout implements View {
+    public StatView() {
+        Grid<Person> grid = new Grid<Person>();
         addComponent(grid);
-
     }
 
     @Override

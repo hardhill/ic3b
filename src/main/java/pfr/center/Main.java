@@ -8,7 +8,7 @@ import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.UI;
 import pfr.center.views.LoginView;
 import pfr.center.views.MainView;
-import pfr.center.views.OstatView;
+import pfr.center.views.StatView;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -29,7 +29,7 @@ public class Main extends UI {
 
         navigator.addView("login", new LoginView(this));
         navigator.addView("main", new MainView(this));
-        navigator.addView("grid", new OstatView());
+        navigator.addView("grid", new StatView());
         navigator.navigateTo("login");
     }
 
