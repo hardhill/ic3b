@@ -77,6 +77,15 @@ public class MainView extends VerticalLayout implements View {
         MenuItem menuItemSprSotr = menuItemSetup.addItem("Справочник сотрудников");
         MenuItem menuItemPrice = menuItemSetup.addItem("Стоимость процессов");
         MenuItem menuItemGroups = menuItemSetup.addItem("Группы");
+        MenuBar.Command comm = new MenuBar.Command() {
+            @Override
+            public void menuSelected(MenuItem selectedItem) {
+                if (selectedItem == menuItemStatist) {
+                    main.navigator.navigateTo("grid");
+                }
+            }
+        };
+
     }
 
 
