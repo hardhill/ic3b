@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d27d474a-eecb-4c78-8364-418888e054db" name="VaadinProject-ic3" url="http://localhost">
+      <webServer id="d27d474a-eecb-4c78-8364-418888e054db" name="VaadinProject-ic3" url="http://localhost:8080">
         <fileTransfer port="0" mountedRoot="" accessType="MOUNT" />
       </webServer>
     </option>
