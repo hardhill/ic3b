@@ -14999,7 +14999,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .mytheme .ic-background {
-    background-image: url("http://localhost/local/img/sarma.jpg");
+    background-image: url("sarma.jpg");
     background-size: cover;
 }
 
@@ -15030,4 +15030,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .mytheme .ic-selector-active {
     border: darkslategray solid thin;
+}
+
+.mytheme .ic-grid2 {
+    font-size: 8px;
+    color: #1e6b15;
 }

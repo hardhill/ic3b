@@ -74,7 +74,7 @@ public class LoginView extends VerticalLayout implements View {
         //String pathImage = "http://localhost/local/img/sarma.jpg";
 //        String pathImage = "images/sarma.jpg";
 //        styles.add(".ic-background{ background-image: url(\""+pathImage+"\"); background-size: cover; }");
-
+        //Page.getCurrent().getStyles().add("");
 
         this.setStyleName("ic-background");
 
