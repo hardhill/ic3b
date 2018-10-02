@@ -31,9 +31,7 @@ public class StatView extends VerticalLayout implements View {
         grid.addColumn(Person::getPens3).setCaption("");
         grid.addColumn(Person::getPens4).setCaption("");
         grid.addColumn(Person::getPens5).setCaption("");
-        grid.addColumn(Person::getPens6).setCaption("").setStyleGenerator(element -> {
-            return "ic-grid2";
-        });
+        grid.addColumn(Person::getPens6).setCaption("");
         grid.setItems(people);
         grid.setWidth("100%");
 
