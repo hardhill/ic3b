@@ -29,7 +29,7 @@ public class Main extends UI {
 
         navigator.addView("login", new LoginView(this));
         navigator.addView("main", new MainView(this));
-        navigator.addView("grid", new StatView());
+        navigator.addView("grid", new StatView(this));
         navigator.navigateTo("login");
     }
 
