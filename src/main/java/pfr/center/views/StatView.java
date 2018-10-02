@@ -30,7 +30,7 @@ public class StatView extends VerticalLayout implements View {
         grid.setItems(people);
 
         addComponent(grid);
-        grid.setStyleName("ic-grid1");
+        grid.setStyleName("ic-grid2");
     }
 
     @Override
